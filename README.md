@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@deno/mod.js';
+import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@v0.1.0-deno/mod.js';
 ```
 
 #### mskminabs( N, x, strideX, mask, strideMask )
@@ -157,7 +157,7 @@ var v = mskminabs.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@deno/mod.js';
+import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@v0.1.0-deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
