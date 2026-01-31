@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-mskminabs/tags). For example,
+
+```javascript
 import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@v0.1.0-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@deno/mod.js';
 ```
 
 #### mskminabs( N, x, strideX, mask, strideMask )
@@ -157,7 +162,7 @@ var v = mskminabs.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@v0.1.0-deno/mod.js';
+import mskminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mskminabs@deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
